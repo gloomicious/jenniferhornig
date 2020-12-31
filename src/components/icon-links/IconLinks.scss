@@ -1,0 +1,36 @@
+@import "styles/variables.scss";
+
+body.dark {
+  .icon-links {
+    svg {
+      fill: $primary;
+
+      &:hover {
+        fill: $secondary;
+      }
+    }
+  }
+}
+
+.icon-links {
+  margin: $spacing-xl 0;
+  text-align: center;
+
+  &__item {
+    width: 1.5em;
+
+    &:not(:first-of-type) {
+      margin-left: $spacing-md;
+    }
+
+    svg {
+      width: 1.5em;
+      fill: $primary;
+      transition: $transition-fast;
+
+      &:hover {
+        fill: $secondary;
+      }
+    }
+  }
+}

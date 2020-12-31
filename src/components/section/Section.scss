@@ -1,0 +1,23 @@
+@import "styles/variables.scss";
+
+.section {
+  min-width: 80vw;
+  text-align: center;
+
+  @media screen and (min-width: $screen-lg) {
+    min-width: initial;
+  }
+
+  &:not(:last-of-type) {
+    margin-bottom: $spacing-xxl;
+  }
+
+  &__title,
+  &__subtitle {
+    margin-bottom: $spacing-xs;
+  }
+
+  &__button {
+    margin-top: $spacing-lg;
+  }
+}
