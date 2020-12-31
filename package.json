@@ -1,9 +1,9 @@
 {
-  "name": "jennifer-hornig",
+  "name": "jenniferhornig",
   "private": true,
   "description": "The personal website of designer and developer Jennifer Hornig",
   "version": "1.0.0",
-  "author": "Jennifer Hornig <gloomicious@gmail.com>",
+  "author": "gloomicious",
   "dependencies": {
     "gatsby": "^2.29.3",
     "gatsby-image": "^2.8.0",
@@ -46,9 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gloomicious/jennifer-hornig"
+    "url": "https://github.com/gloomicious/jenniferhornig"
   },
   "bugs": {
-    "url": "https://github.com/gloomicious/jennifer-hornig/issues"
+    "url": "https://github.com/gloomicious/jenniferhornig/issues"
   }
 }
