@@ -11,6 +11,7 @@ import IconCross from "../../icons/icon-cross.svg"
 import IconDribbble from "../../icons/icon-dribbble.svg"
 import IconGitHub from "../../icons/icon-github.svg"
 import IconInstagram from "../../icons/icon-instagram.svg"
+import IconLinkedin from "../../icons/icon-linkedin.svg"
 import IconMail from "../../icons/icon-mail.svg"
 import IconMoon from "../../icons/icon-moon.svg"
 import IconPinterest from "../../icons/icon-pinterest.svg"
@@ -31,6 +32,7 @@ export default function Icon({ name, className }) {
     Dribbble: IconDribbble,
     GitHub: IconGitHub,
     Instagram: IconInstagram,
+    Linkedin: IconLinkedin,
     Mail: IconMail,
     Moon: IconMoon,
     Pinterest: IconPinterest,

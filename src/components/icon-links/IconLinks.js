@@ -7,6 +7,7 @@ export default function IconLinks() {
     { link: "https://github.com/gloomicious", icon: "GitHub" },
     { link: "https://dribbble.com/gloomicious", icon: "Dribbble" },
     { link: "https://gloomicious.com", icon: "Camera" },
+    { link: "https://www.linkedin.com/in/jenniferhornig", icon: "Linkedin" },
     { link: "mailto:gloomicious@gmail.com", icon: "Mail" },
   ]
   return (
