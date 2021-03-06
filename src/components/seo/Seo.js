@@ -62,7 +62,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script
+        async
+        defer
+        data-domain="jenniferhornig.com"
+        src="https://plausible.io/js/plausible.js"
+      ></script>
+    </Helmet>
   )
 }
 
